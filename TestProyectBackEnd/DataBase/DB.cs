@@ -238,7 +238,7 @@ namespace TestProyectBackEnd.DataBase
             }
             return response;
         }
-        public Response userList(Users users, SqlConnection connection)
+        public Response userList(SqlConnection connection)
         {
             Response response = new Response();
             List<Users> listUsers = new List<Users>();

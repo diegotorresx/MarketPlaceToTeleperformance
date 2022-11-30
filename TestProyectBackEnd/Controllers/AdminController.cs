@@ -33,7 +33,7 @@ namespace TestProyectBackEnd.Controllers
             Response response = new Response();
             DB db = new DB();
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("Conn").ToString());
-            response = db.userList(user,connection);
+            response = db.userList(connection);
             return response;
         }
     }
