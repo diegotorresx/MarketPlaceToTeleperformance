@@ -1,0 +1,7 @@
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.csproj.AssemblyReference.cache
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.AssemblyInfoInputs.cache
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.AssemblyInfo.cs
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.csproj.CoreCompileInputs.cache
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.MvcApplicationPartsAssemblyInfo.cs
+D:\PruebaIngresoNet\Teleperformance\Prueba_Teleperformance\TestProyectBackEnd\TestProyectBackEnd\obj\Debug\net6.0\TestProyectBackEnd.MvcApplicationPartsAssemblyInfo.cache

@@ -8,51 +8,41 @@ namespace TestProyectBackEnd.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class ProductsController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        public UsersController(IConfiguration configuration)
+        public ProductsController(IConfiguration configuration)
         {
             _configuration = configuration;
         }
         [HttpPost]
-        [Route("registration")]
-        public Response register(Users user)
+        [Route("addToCart")]
+        public Response addToCart(Cart cart)
         {
             Response response = new Response();
             DB db = new DB();
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("Conn").ToString());
-            response = db.register(user,connection);
+            response = db.addToCart(cart, connection);
             return response;
         }
         [HttpPost]
-        [Route("login")]
-        public Response login(Users user)
+        [Route("placeOrder")]
+        public Response placeOrder(Users user)
         {
             Response response = new Response();
             DB db = new DB();
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("Conn").ToString());
-            response = db.Login(user, connection);
+            response = db.placeOrder(user, connection);
             return response;
         }
         [HttpPost]
-        [Route("viewUser")]
-        public Response viewUser(Users user)
+        [Route("OrderList")]
+        public Response OrderList(Users user)
         {
             Response response = new Response();
             DB db = new DB();
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("Conn").ToString());
-            response = db.viewUser(user, connection);
-            return response;
-        }
-        [HttpPost]
-        [Route("updateProfile")]
-        public Response updateProfile(Users user)
-        {
-            Response response = new Response();
-            DB db = new DB();
-            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("Conn").ToString());
-            response = db.updateProfile(user, connection);
+            response = db.OrderList(user, connection);
             return response;
         }
     }
