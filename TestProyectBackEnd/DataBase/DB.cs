@@ -261,7 +261,7 @@ namespace TestProyectBackEnd.DataBase
                     user.Status = Convert.ToInt32(dt.Rows[i]["Status"]);
                     user.CreatedOn = Convert.ToDateTime(dt.Rows[i]["CreatedOn"]);
 
-                    listUsers.Add(users);
+                    listUsers.Add(user);
                 }
                 if (listUsers.Count > 0)
                 {
